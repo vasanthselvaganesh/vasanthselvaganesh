@@ -1,0 +1,36 @@
+>>Project Title: Simple ATM System in C
+
+>>>Description:  
+A console-based C program that simulates basic ATM operations, including checking balance, depositing money, withdrawing money, and transferring money. The user must enter a password to access their account and perform transactions.
+
+Features:
+
+>>Account Access:
+  - Prompts the user to enter a password to access their account.
+  - Verifies that the entered PIN matches the password before proceeding with any transactions.
+
+>>Banking Operations:
+  - **Balance Check:**
+    - Displays the current balance in the user's account.
+  - **Deposit Money:**
+    - Allows the user to deposit a specified amount into their account.
+    - Updates and displays the new balance after the deposit.
+  - **Withdraw Money:**
+    - Allows the user to withdraw a specified amount from their account.
+    - Updates and displays the new balance after the withdrawal.
+  - **Transfer Money:**
+    - Allows the user to transfer a specified amount from their account.
+    - Updates and displays the new balance after the transfer.
+
+- **User Interaction:**
+  - Provides a menu for the user to select an operation (check balance, deposit, withdraw, transfer).
+  - Ensures secure transactions by requiring the correct password for each operation.
+
+- **Error Handling:**
+  - If the user enters an incorrect password, the program informs them and prompts them to try again.
+
+**Future Enhancements:**
+- Add features like transaction history, multiple accounts, and account creation.
+- Implement input validation to ensure correct data entry.
+- Add an option to change the password.
+
