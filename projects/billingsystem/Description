@@ -1,0 +1,28 @@
+Project Title: Simple Billing System in C++
+
+Description:  
+A console-based C++ application that generates a formatted bill for a customer's purchases, including item details and total cost. This project serves as a simple billing system.
+
+>>Features:**
+- **Class Implementation:**
+  - `list` class with the following members:
+    - `string name`: Name of the item.
+    - `int price`: Price of the item.
+  
+- >>Bill Generation:**
+  - Collects customer details: Name and Address.
+  - Accepts multiple items with their respective names and prices.
+  - Displays a well-formatted bill:
+    - Includes item name and price.
+    - Calculates and shows the total amount due.
+  
+- >>User Interaction:**
+  - Prompts the user to input their details and the number of items.
+  - Guides the user through entering item names and prices.
+  - Outputs a clear and organized bill with a thank-you message.
+
+>>Future Enhancements:**
+- Add input validation to handle incorrect inputs.
+- Implement features for discounts, taxes, or item categories.
+- Save the generated bill to a file for future reference.
+
