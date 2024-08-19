@@ -1,0 +1,11 @@
+University Management System (C++):
+
+This project is a simple console-based University Management System implemented in C++. The system allows users to perform basic operations such as adding, searching, and updating student records. Each student record contains details such as Roll Number, Name, Stream, and Address. The data is stored in a text file for persistence, enabling the program to maintain records across sessions.
+
+>>Features:
+
+         Add Student: Capture and store student details, including Roll Number, Name, Stream, and Address.
+         Search Student: Look up a student's record by their Roll Number and display the associated details.
+         Update Student: Modify the Address of an existing student based on their Roll Number.
+
+The program is designed to run on macOS and uses standard C++ libraries. It replaces Windows-specific functions with macOS-compatible alternatives, making it portable and easy to use on different systems.
