@@ -1,0 +1,650 @@
+Last login: Tue Aug 20 11:26:30 on ttys000
+(base) vasanths@vasanths-Air ~ % cd desktop
+(base) vasanths@vasanths-Air desktop % cd projects
+(base) vasanths@vasanths-Air projects % ls
+ATM				billingsystem
+Managementsystem-university	libary-management_system
+(base) vasanths@vasanths-Air projects % cd libary-management_system
+(base) vasanths@vasanths-Air libary-management_system % ls
+a.out		data.cpp
+(base) vasanths@vasanths-Air libary-management_system % g++ data.cpp
+(base) vasanths@vasanths-Air libary-management_system % ./a.out
+Login as:
+1. Admin
+2. Student
+0. Exit
+2
+Enter password: password
+Enter your roll number: 22
+Student not found. Create an account? (1. Yes / 2. No): 2
+Login as:
+1. Admin
+2. Student
+0. Exit
+2
+Enter password: password
+Enter your roll number: 1
+Student not found. Create an account? (1. Yes / 2. No): 1
+Enter roll number (BBRRRR format): 1
+Enter student name: ajay
+Enter initial deposit amount ($50 minimum): 50$
+Login as:
+1. Admin
+2. Student
+0. Exit
+(base) vasanths@vasanths-Air libary-management_system % 2
+zsh: command not found: 2
+(base) vasanths@vasanths-Air libary-management_system % ./a.out
+Login as:
+1. Admin
+2. Student
+0. Exit
+2
+Enter password: password
+Enter your roll number: 1
+Student not found. Create an account? (1. Yes / 2. No): y
+Login as:
+1. Admin
+2. Student
+0. Exit
+(base) vasanths@vasanths-Air libary-management_system % ./a.out
+Login as:
+1. Admin
+2. Student
+0. Exit
+2
+Enter password: password
+Enter your roll number: 1
+Student not found. Create an account? (1. Yes / 2. No): 1
+Enter roll number (BBRRRR format): 1
+Enter student name: Ajay
+Enter initial deposit amount ($50 minimum): 150
+Login as:
+1. Admin
+2. Student
+0. Exit
+2
+Enter password: password
+Enter your roll number: 1
+Student options:
+1. View balance
+2. Deposit amount
+3. Issue item
+1
+Roll No: 1
+Name: Ajay
+Balance: $100.00
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: admin
+Incorrect password.
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: password
+Admin options:
+1. Add book
+2. Edit book
+3. View book status
+4. View enrolled students
+5. View student balance
+1
+Book limit reached. Cannot add more books.
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: password
+Admin options:
+1. Add book
+2. Edit book
+3. View book status
+4. View enrolled students
+5. View student balance
+3
+Title: Title
+Author: Author
+ISBN: 1000
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1001
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1002
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1003
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1004
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1005
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1006
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1007
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1008
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1009
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1010
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1011
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1012
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1013
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1014
+Available: Yes
+
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: password
+Admin options:
+1. Add book
+2. Edit book
+3. View book status
+4. View enrolled students
+5. View student balance
+2
+Enter book ISBN to edit: 1000
+Current book title: Title
+Enter new book title: vasanth
+Current book author: Author
+Enter new book author: vasanth
+Book details updated.
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: password
+Admin options:
+1. Add book
+2. Edit book
+3. View book status
+4. View enrolled students
+5. View student balance
+3
+Title: vasanth
+Author: vasanth
+ISBN: 1000
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1001
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1002
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1003
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1004
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1005
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1006
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1007
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1008
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1009
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1010
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1011
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1012
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1013
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1014
+Available: Yes
+
+Login as:
+1. Admin
+2. Student
+0. Exit
+2
+Enter password: k
+Incorrect password.
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: password
+Admin options:
+1. Add book
+2. Edit book
+3. View book status
+4. View enrolled students
+5. View student balance
+4
+1 - Ajay - Balance: $100.00
+Login as:
+1. Admin
+2. Student
+0. Exit
+0
+(base) vasanths@vasanths-Air libary-management_system % g++ data.cpp
+(base) vasanths@vasanths-Air libary-management_system % ./a.out
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: password
+Admin options:
+1. Add book
+2. Edit book
+3. View book status
+4. View enrolled students
+5. View student balance
+3
+Title: Title
+Author: Author
+ISBN: 1000
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1001
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1002
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1003
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1004
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1005
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1006
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1007
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1008
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1009
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1010
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1011
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1012
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1013
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1014
+Available: Yes
+
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: password
+Admin options:
+1. Add book
+2. Edit book
+3. View book status
+4. View enrolled students
+5. View student balance
+2
+Enter book ISBN to edit: 1000
+Current book title: Title
+Enter new book title: LIFE
+Current book author: Author
+Enter new book author: vasanth
+Book details updated.
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: password
+Admin options:
+1. Add book
+2. Edit book
+3. View book status
+4. View enrolled students
+5. View student balance
+3
+Title: LIFE
+Author: vasanth
+ISBN: 1000
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1001
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1002
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1003
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1004
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1005
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1006
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1007
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1008
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1009
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1010
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1011
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1012
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1013
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1014
+Available: Yes
+
+Login as:
+1. Admin
+2. Student
+0. Exit
+2
+Enter password: password
+Enter your roll number: 1
+Student not found. Create an account? (1. Yes / 2. No): 1
+Enter roll number (BBRRRR format): 1
+Enter student name: Ajay
+Enter initial deposit amount ($50 minimum): 150
+Login as:
+1. Admin
+2. Student
+0. Exit
+2
+Enter password: password
+Enter your roll number: 1
+Student options:
+1. View balance
+2. Deposit amount
+3. Issue item
+3
+Available books:
+1. LIFE by vasanth (ISBN: 1000)
+2. Title by Author (ISBN: 1001)
+3. Title by Author (ISBN: 1002)
+4. Title by Author (ISBN: 1003)
+5. Title by Author (ISBN: 1004)
+6. Title by Author (ISBN: 1005)
+7. Title by Author (ISBN: 1006)
+8. Title by Author (ISBN: 1007)
+9. Title by Author (ISBN: 1008)
+10. Title by Author (ISBN: 1009)
+11. Title by Author (ISBN: 1010)
+12. Title by Author (ISBN: 1011)
+13. Title by Author (ISBN: 1012)
+14. Title by Author (ISBN: 1013)
+15. Title by Author (ISBN: 1014)
+Enter the number of the book you want to issue (0 to cancel): 1
+Book issued successfully. New balance: $98.00
+Login as:
+1. Admin
+2. Student
+0. Exit
+1
+Enter password: password
+Admin options:
+1. Add book
+2. Edit book
+3. View book status
+4. View enrolled students
+5. View student balance
+3
+Title: LIFE
+Author: vasanth
+ISBN: 1000
+Available: No
+
+Title: Title
+Author: Author
+ISBN: 1001
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1002
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1003
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1004
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1005
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1006
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1007
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1008
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1009
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1010
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1011
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1012
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1013
+Available: Yes
+
+Title: Title
+Author: Author
+ISBN: 1014
+Available: Yes
+
+Login as:
+1. Admin
+2. Student
+0. Exit
+exit
+(base) vasanths@vasanths-Air libary-management_system % 
