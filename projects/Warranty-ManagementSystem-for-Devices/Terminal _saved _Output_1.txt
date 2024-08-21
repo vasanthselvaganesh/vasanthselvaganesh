@@ -1,0 +1,51 @@
+Last login: Wed Aug 21 19:21:39 on ttys000
+(base) vasanths@vasanths-Air ~ % cd desktop
+(base) vasanths@vasanths-Air desktop % cd projects
+(base) vasanths@vasanths-Air projects % ls
+ATM
+Managementsystem-university
+Warranty-ManagementSystem-for-Devices
+billingsystem
+libary-management_system
+(base) vasanths@vasanths-Air projects % cd Warranty-ManagementSystem-for-Devices
+(base) vasanths@vasanths-Air Warranty-ManagementSystem-for-Devices % g++ -std=c++11 data.cpp -o data
+./data
+
+
+Enter the User Name : Vasanth
+
+Warranty Management System
+1. Add Warranty
+2. Display Warranties by Segment
+3. Exit
+Enter your choice: 1
+Enter Device Name: y31
+Enter Segment (e.g., Phone, AirPods, Laptop): Phone
+Enter Brand: Vivo
+Enter Warranty ID: 483902
+Enter Purchase Location: store
+Enter Purchase Date (YYYY-MM-DD): 21.8.24
+Enter Buyer Name: vasanth s
+Enter Coverage Period (in years): 3
+
+Enter the User Name : Vasanth
+
+Warranty Management System
+1. Add Warranty
+2. Display Warranties by Segment
+3. Exit
+Enter your choice: 2
+Enter the Segment Name to Display Warranties: Phone
+
+Warranties for User: Vasanth, Segment: Phone
+---------------------
+Device: y31
+Brand: Vivo
+Warranty ID: 483902
+Purchase Location: store
+Purchase Date: 21.8.24
+Buyer Name: vasanth s
+Coverage Years: 3
+---------------------
+
+Enter the User Name : 
