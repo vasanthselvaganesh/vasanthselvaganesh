@@ -1,0 +1,85 @@
+**Personalized Warranty Management System**
+
+---
+
+### **Project Description:**
+
+The **Personalized Warranty Management System** is a C++ program designed to help users efficiently manage the warranties of their electronic devices. The system allows users to add warranty details for various devices, categorize them under specific segments (like "Phone," "AirPods," "Laptop"), and associate these warranties with specific users (e.g., "Vasanth," The warranties are stored in separate files for each user, organized by segment, making it easy to retrieve and manage warranty information.
+
+---
+
+### **Key Features:**
+
+1. **User-Specific Warranty Management:**
+   - The system allows multiple users to store and manage their warranties separately. Each user's warranties are saved in distinct files named after the user and the segment (e.g., "Vasanth_Phone_warranties.txt").
+
+2. **Categorized by Segment:**
+   - Warranties are organized by segments such as "Phone," "AirPods," "Laptop," etc., making it easier to locate specific warranties.
+
+3. **Detailed Warranty Information:**
+   - For each warranty, the system stores details like device name, brand, warranty ID, purchase location, purchase date, buyer's name, and coverage period in years.
+
+4. **Efficient Retrieval:**
+   - Users can easily retrieve and view all warranties under a specific segment for a particular user, helping them keep track of warranty coverage and validity.
+
+---
+
+### **User Manual:**
+
+#### **1. Starting the Program:**
+
+- **Step 1:** Compile and run the program using the following commands in your terminal:
+  ```bash
+  g++ -std=c++11 data.cpp -o data
+  ./data
+  ```
+- **Step 2:** Once the program is running, you'll be prompted to enter the user’s name. This name will be used to create or access files where the warranties are stored.
+
+#### **2. Adding a Warranty:**
+
+- **Step 1:** Select the "Add Warranty" option from the main menu.
+- **Step 2:** Enter the required details for the warranty, including the device name, segment (e.g., "Phone," "Laptop"), brand, warranty ID, purchase location, purchase date, buyer's name, and coverage period in years.
+- **Step 3:** The warranty information will be saved under the appropriate segment file for the specified user.
+
+#### **3. Displaying Warranties by Segment:**
+
+- **Step 1:** Select the "Display Warranties by Segment" option from the main menu.
+- **Step 2:** Enter the segment name (e.g., "Phone," "Laptop") you wish to view.
+- **Step 3:** The program will display all the warranties stored under the specified segment for the user.
+
+#### **4. Exiting the Program:**
+
+- **Step 1:** Choose the "Exit" option from the main menu to safely close the program.
+
+---
+
+### **Use Cases:**
+
+1. **Personal Device Management:**
+   - Users can easily track the warranties of their personal devices, such as phones, laptops, and accessories, ensuring that they never miss out on warranty claims.
+
+2. **Family Device Management:**
+   - Families can use the system to manage the warranties of devices owned by different members. For example, "Dad" can manage his laptop warranties separately from "Mom's" phone warranties.
+
+3. **Organized Warranty Storage:**
+   - By categorizing warranties under segments, users can quickly access relevant information when needed, such as when claiming a warranty or checking coverage.
+
+4. **Long-Term Warranty Tracking:**
+   - The system helps users track warranties over long periods (years), making it easier to manage devices with extended warranties.
+
+---
+
+### **Future Enhancements:**
+
+1. **Automated Expiry Alerts:**
+   - Implement a feature that alerts users when a warranty is nearing its expiration date.
+  
+2. **Cloud Storage Integration:**
+   - Allow users to back up and access their warranty data through cloud services for more secure and accessible management.
+
+3. **User Interface Enhancement:**
+   - Upgrade the program with a graphical user interface (GUI) for a more user-friendly experience.
+
+---
+
+This user manual provides a clear overview of how to use the **Personalized Warranty Management System** and highlights its key features and potential future enhancements.
